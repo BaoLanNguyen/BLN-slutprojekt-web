@@ -1,62 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* * åsidosätta allt på webbplatsen, vilket gör att den inte har padding eller margin gör det så att webbplatsen ser bättre ut och inte har tomt utrymme nära väggarna */
 *{
+    /* box-sizing: border-box gör att margin och padding ingår i bredd och höjd. */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: darkgray;
 }
-.mehe {
-    font-size: 40px;
-    margin: auto;
-    text-align: center;
-    text-transform: uppercase;
+/*välja ett teckensnitt för länkarna, egenskapen font-weight anger hur fet texten är*/
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
 }
-.menu{
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+/* display: flex används för att få elementen att justeras horisontellt */
+/*justify-content: space-between gör det så att föremålen kommer att ha utrymme mellan dem*/
+header {
     display: flex;
-    border: hidden;
-    background-color:lightblue;
-    width: 100%;
-    height: 100px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
 }
-.menu2{
-    float: right;
-    margin: auto;
-}
-.menu2 ul {
-    margin: 0;
-    padding: 0;
+/* list-style: none användas för att ta bort markörerna/kulorna i listan */
+.navli {
     list-style: none;
 }
-.menu2 li {
+/* display: inline-block används för att visa listobjekt horisontellt istället för vertikalt */
+.navli li {
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 23px;
-  
-    position: relative;
-}
-.menu2 a {
-    color: #444;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-  
-.menu2 a:hover {
-    color: #000;
-}
-  
-.menu2 a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: #444;
-  
-    position: absolute;
-    top: 0;
-    width: 0%;
-  
-    transition: all ease-in-out 250ms;
-}
-  
-.menu2 a:hover::before {
-    width: 100%;
+    padding: 10px;
 }
