@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 /* * åsidosätta allt på webbplatsen, vilket gör att den inte har padding eller margin gör det så att webbplatsen ser bättre ut och inte har tomt utrymme nära väggarna */
 *{
     /* box-sizing: border-box gör att margin och padding ingår i bredd och höjd. */
@@ -12,11 +13,17 @@ li, a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    color: white;
+    color: rgb(255, 253, 253);
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(38, 100, 121);
 }
 .logo{
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 3000px;
+    font-family: "Roboto Mono", sans-serif;
+    background-color: rgb(38, 100, 121);
+    color: rgb(255, 253, 253);
 }
 /* display: flex används för att få elementen att justeras horisontellt */
 /*justify-content: space-between gör det så att föremålen kommer att ha utrymme mellan dem*/
@@ -25,13 +32,28 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+    border: 0px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(38, 100, 121);
 }
 /* list-style: none användas för att ta bort markörerna/kulorna i listan */
 .navli {
     list-style: none;
+    background-color: rgb(38, 100, 121);
 }
 /* display: inline-block används för att visa listobjekt horisontellt istället för vertikalt */
 .navli li {
     display: inline-block;
-    padding: 10px;
+    padding: 0px 10px;
+}
+/* med transition ändras texten till den svarta färgen under 0,3 sekunder. */
+.navli li a{
+    transition: all 0.3s ease 0s;
+}
+.navli li a:hover{
+    color: black;
+}
+nav{
+    background-color: rgb(38, 100, 121);
 }
