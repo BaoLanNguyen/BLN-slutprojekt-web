@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-@media screen and (max-width: 1000px){
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@media screen and (max-width: 1200px){
     .list{
-        font-size: 0.7em;
+        font-size: 0.96em;
         padding: 0px 5px;
     }
     p.logo{
-        font-size: 0.7em;
+        font-size: 0.96em;
+    }
+}
+@media screen and (max-width: 900px){
+    .list{
+        font-size: 0.8em;
+        padding: 0px 5px;
+    }
+    p.logo{
+        font-size: 0.8em;
     }
 }
 /* * åsidosätta allt på webbplatsen, vilket gör att den inte har padding eller margin gör det så att webbplatsen ser bättre ut och inte har tomt utrymme nära väggarna */
@@ -15,8 +25,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: darkgray;
+    background-color: darkgrey;
 }
+
 /*välja ett teckensnitt för länkarna, egenskapen font-weight anger hur fet texten är*/
 li, a {
     font-family: "Montserrat", sans-serif;
@@ -68,9 +79,63 @@ nav{
     background-color: rgb(38, 100, 121);
 }
 .greet{
-    font-style: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
     padding-top: 60px;
+    color: rgb(15, 102, 131);
 }
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:80px;
+    background:rgb(38, 100, 121);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+    text-align: center;
+    line-height: 80px;
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    font-family: 'Share Tech', sans-serif;
+    display: flex;
+    margin: 40px;
+
+}
+.container div{
+    background-image: url(images/360_F_436673178_VbvC3aTs5RyJ5H6FEEcE5TvFSteDtwUF.jpg);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.left{
+    text-align: center;
+    padding: 20px;
+    border: black 1px solid;
+    border-collapse: collapse;
+    
+}
+.left h2{
+    padding-bottom: 10px;
+}
+.center{
+    text-align: center;
+    padding: 20px;
+    border: black 1px solid;
+    border-left: none;
+}
+.center h2{
+    padding-bottom: 10px;
+}
+.right{
+    text-align: center;
+    padding: 20px;
+    border: black 1px solid;
+    border-left: none;
+}
+.right h2{
+    padding-bottom: 10px;
+}
+
+
