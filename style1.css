@@ -61,7 +61,7 @@ header {
 .navli {
     list-style: none;
     background-color: rgb(38, 100, 121);
-    background-color: rgb(38, 100, 121);
+    
 }
 /* display: inline-block används för att visa listobjekt horisontellt istället för vertikalt */
 .navli li {
@@ -98,23 +98,19 @@ footer{
     text-align: center;
     line-height: 80px;
     font-family: "Montserrat", sans-serif;
+    color: white;
 }
 .container{
     font-family: 'Share Tech', sans-serif;
     display: flex;
     margin: 40px;
-
-}
-.container div{
-    background-image: url(images/360_F_436673178_VbvC3aTs5RyJ5H6FEEcE5TvFSteDtwUF.jpg);
-    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute
 }
 .left{
     text-align: center;
     padding: 20px;
     border: black 1px solid;
     border-collapse: collapse;
-    
 }
 .left h2{
     padding-bottom: 10px;
@@ -137,5 +133,11 @@ footer{
 .right h2{
     padding-bottom: 10px;
 }
-
+img{
+    z-index: -1;
+    left: 0px;
+    right: 0px;
+    opacity: 0.2;
+    position: absolute;
+}
 
