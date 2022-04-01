@@ -35,7 +35,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: darkgrey;
 }
 
 
@@ -113,9 +112,8 @@ nav {
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: rgb(15, 102, 131);
+    padding-top: 35px;
+    color: black;
 }
 
 footer {
@@ -137,6 +135,7 @@ footer {
     display: flex;
     margin: 40px;
     position: absolute;
+    background-color: darkgrey;
 }
 
 .left {
@@ -194,6 +193,6 @@ img {
     z-index: -1;
     left: 0px;
     right: 0px;
-    opacity: 0.2;
+    opacity: 0.6;
     position: absolute;
 }
