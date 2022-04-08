@@ -124,7 +124,6 @@ footer {
     align-items: center;
     justify-content: space-between;
     height: 200px;
-    line-height: 200px;
     font-family: 'Share Tech', sans-serif;
     border: 1px solid black;
 }
@@ -143,12 +142,124 @@ footer {
 }
 .ctext{
     height: 199px;
-    width: fit-content;
+    width: 1730px;
     border-bottom: 1px solid black;
     font-size: 20px;
     color: black;
-    background-image: url(images/imageedit_4_9175840037.png);
+    background-image: url(images/imageedit_7_5724549751.png);
     background-size: cover;
     background-repeat: no-repeat;
-    white-space: initial;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
 } 
+.python{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    font-family: 'Share Tech', sans-serif;
+    border: 1px solid black;
+}
+
+.plogo{
+    height: 199px;
+    width: 199px;
+    border-bottom: 1px solid black;
+}
+
+.plogo > img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    background-color: rgba(0, 0, 139, 0.2);
+}
+.ptext{
+    height: 199px;
+    width: 1730px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    color: black;
+    background-image: url(images/imageedit_3_3821169276.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+} 
+.javascript{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    font-family: 'Share Tech', sans-serif;
+    border: 1px solid black;
+}
+
+.jlogo{
+    height: 199px;
+    width: 199px;
+    border-bottom: 1px solid black;
+    background-color: rgba(0, 0, 139, 0.2);
+    text-align: center;
+}
+
+.jlogo > img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    background-color: rgba(0, 0, 139, 0)
+}
+.jtext{
+    height: 199px;
+    width: 1730px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    color: black;
+    background-image: url(images/imageedit_4_7998485170.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+} 
+.css{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    font-family: 'Share Tech', sans-serif;
+    border: 1px solid black;
+    margin-bottom: 100px;
+}
+
+.csslogo{
+    height: 199px;
+    width: 199px;
+    border-bottom: 1px solid black;
+}
+
+.csslogo > img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    background-color: rgba(0, 0, 139, 0.2);
+}
+.csstext{
+    height: 199px;
+    width: 1730px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    color: black;
+    background-image: url(images/imageedit_7_5724549751.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+} 
+
+
