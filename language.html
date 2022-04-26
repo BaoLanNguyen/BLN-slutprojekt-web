@@ -6,6 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Languages</title>
+    <script type="text/javascript">
+        function popup(){
+            var html = document.getElementById("html");
+            var css = document.getElementById("css");
+            var javascript = document.getElementById("javascript");
+            var csharp = document.getElementById("csharp");
+            var python = document.getElementById("python");
+        }
+    </script>
 </head>
 
 <body>
@@ -67,11 +76,14 @@
             <label for="javascript">JavaScript</label><br>
             <input type="radio" id="csharp" name="fav_language" value="C#">
             <label for="csharp">C#</label><br>
-            <input type="submit" value="Submit">
+            <input type="radio" id="python" name="fav_language" value="Python">
+            <label for="python">Python</label><br>
+            <input onclick="popup()" type="submit" value="Submit">
+            
         </form> 
         </div>
     </main>
-    <footer>This website was made for upper secondary technical school Teknikum</footer>
+    <footer>This website was made for upper secondary technical school Teknikum school project</footer>
 </body>
 
 </html>
