@@ -233,7 +233,6 @@ footer {
     height: 200px;
     font-family: 'Share Tech', sans-serif;
     border: 1px solid black;
-    margin-bottom: 100px;
 }
 
 .csslogo{
@@ -261,5 +260,31 @@ footer {
     font-weight: 500;
     padding-top: 10px;
 } 
+.formula {
+    margin: 20px 0 100px 0px;
+    border: 1px solid black;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 20px;
+    background-color: rgba(0, 0, 139, 0.2);
+    padding: 10px 0px 10px 20px;
+}
+.formula p{
+    background-color: rgba(0, 0, 0, 0);
+}
+.formula form{
+    background-color: rgba(0, 0, 0, 0);
+}
+.formula label{
+    background-color: rgba(0, 0, 0, 0);
+}
+input[type=submit]{
+    background-color: rgba(58, 150, 180, 0.37);
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 570;
+}
+
+
 
 
