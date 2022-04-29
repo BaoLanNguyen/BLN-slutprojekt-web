@@ -32,7 +32,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: darkgrey;
 }
 
 
@@ -117,4 +116,38 @@ footer {
     line-height: 80px;
     font-family: "Montserrat", sans-serif;
     color: white;
+}
+.greet {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 35px;
+    color: black;
+}
+table,th,td{
+	border: 1px solid black;
+    border-collapse: collapse; 
+}
+table{
+    width: 1600px;
+    height: 300px;
+    margin: 50px auto;
+}
+th, td{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech', sans-serif;
+}
+
+tr:nth-child(even){background-color:lightblue;}
+tr:nth-child(odd){background-color:lightcyan;}
+tr:nth-child(1){background-color:white; color: black;}
+
+img {
+    z-index: -1;
+    left: 0px;
+    right: 0px;
+    opacity: 0.6;
+    position: absolute;
 }
