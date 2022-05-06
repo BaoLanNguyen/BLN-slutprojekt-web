@@ -133,11 +133,13 @@ table{
     width: 1600px;
     height: 300px;
     margin: 50px auto;
+    margin-bottom: 100px;
 }
 th, td{
     font-size: 20px;
     text-align: center;
     font-family: 'Share Tech', sans-serif;
+    padding: 10px;
 }
 
 tr:nth-child(even){background-color:lightblue;}
@@ -150,4 +152,5 @@ img {
     right: 0px;
     opacity: 0.6;
     position: absolute;
+    height: 110%;
 }
