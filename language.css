@@ -119,14 +119,16 @@ footer {
     height: 199px;
     width: 1730px;
     border-bottom: 1px solid black;
-    font-size: 20px;
+    font-size: 22px;
     color: black;
     background-image: url(images/imageedit_7_5724549751.png);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: 500;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 } 
 .python{
     margin-top: 20px;
@@ -156,14 +158,16 @@ footer {
     height: 199px;
     width: 1730px;
     border-bottom: 1px solid black;
-    font-size: 20px;
+    font-size: 22px;
     color: black;
     background-image: url(images/imageedit_3_3821169276.png);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: 500;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 } 
 .javascript{
     margin-top: 20px;
@@ -193,14 +197,16 @@ footer {
     height: 199px;
     width: 1730px;
     border-bottom: 1px solid black;
-    font-size: 20px;
+    font-size: 22px;
     color: black;
     background-image: url(images/imageedit_4_7998485170.png);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: 500;
-    padding-top: 10px;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 } 
 .css{
     margin-top: 20px;
@@ -236,7 +242,9 @@ footer {
     background-repeat: no-repeat;
     text-align: center;
     font-weight: 500;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 } 
 .formula {
     margin: 20px 0 100px 0px;
